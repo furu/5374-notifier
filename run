@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -e
+
+cd `dirname $0`
+
+docker run --rm --env-file .env tfrkd/5374-notifier
